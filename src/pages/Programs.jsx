@@ -1,4 +1,4 @@
-function Program() {
+function Programs() {
   return (
     <div>
       <h1>Programs</h1>
@@ -7,4 +7,4 @@ function Program() {
   );
 }
 
-export default Program;
+export default Programs;
