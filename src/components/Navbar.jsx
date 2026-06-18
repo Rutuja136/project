@@ -1,16 +1,24 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav className="navbar">
-      <h2>College Website</h2>
-
-      <ul className="nav-links">
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/about">About</Link></li>
-        <li><Link to="/programs">Programs</Link></li>
-        <li><Link to="/events">Events</Link></li>
-        <li><Link to="/contact">Contact</Link></li>
+    <nav>
+      <ul style={{ display: "flex", gap: "20px", listStyle: "none" }}>
+        <li>
+          <NavLink to="/">Home</NavLink>
+        </li>
+        <li>
+          <NavLink to="/about">About</NavLink>
+        </li>
+        <li>
+          <NavLink to="/events">Events</NavLink>
+        </li>
+        <li>
+          <NavLink to="/programs">Programs</NavLink>
+        </li>
+        <li>
+          <NavLink to="/contact">Contact</NavLink>
+        </li>
       </ul>
     </nav>
   );

@@ -7,7 +7,6 @@ import About from "./pages/About";
 import Events from "./pages/Events";
 import Programs from "./pages/Programs";
 import Contact from "./pages/Contact";
-import"./App.css";
 
 function App() {
   return (
