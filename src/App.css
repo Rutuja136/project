@@ -1,3 +1,4 @@
+ feature/program-page
 .cards{
   width: 100%;
   display: flex;
@@ -26,4 +27,90 @@
 .list li{
   list-style: none;
   display: flex;
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: Arial, sans-serif;
+}
+
+body{
+  overflow-x:hidden;
+}
+
+/* Navbar */
+
+.navbar{
+  background:#0f172a;
+  color:white;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:20px 80px;
+}
+
+.navbar h2{
+  color: white;
+  font-size:40px;
+}
+
+.nav-links{
+  list-style:none;
+  display:flex;
+  gap:30px;
+}
+
+.nav-links a{
+  color:white;
+  text-decoration:none;
+  font-size:18px;
+}
+
+.nav-links a:hover{
+  color:#f59e0b;
+}
+
+/* Hero Section */
+
+.hero{
+  height:90vh;
+  background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+  url("https://images.unsplash.com/photo-1562774053-701939374585?w=1600");
+  background-size:cover;
+  background-position:center;
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+}
+
+.hero-content{
+  color:white;
+}
+
+.hero-content h1{
+  font-size:60px;
+  margin-bottom:20px;
+}
+
+.hero-content p{
+  font-size:24px;
+  margin-bottom:30px;
+}
+
+.hero-content button{
+  padding:15px 35px;
+  border:none;
+  border-radius:10px;
+  background:#f59e0b;
+  color:white;
+  font-size:18px;
+  cursor:pointer;
+}
+
+.hero-content button:hover{
+  background:#ea580c;
+ master
 }
